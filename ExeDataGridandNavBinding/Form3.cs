@@ -32,8 +32,19 @@ namespace ExeDataGridandNavBinding
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            new Form4().Show();
+            Form4 detail = new Form4();
+            detail.label6.Text = this.dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            detail.label7.Text = this.dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            detail.label8.Text = this.dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            detail.label9.Text = this.dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            detail.label10.Text = this.dataGridView1.CurrentRow.Cells[4].Value.ToString();
+            detail.ShowDialog();
             this.Hide();
+        }
+
+        private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }
