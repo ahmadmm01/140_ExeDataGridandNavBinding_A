@@ -33,11 +33,11 @@ namespace ExeDataGridandNavBinding
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             Form4 detail = new Form4();
-            detail.label6.Text = this.dataGridView1.CurrentRow.Cells[0].Value.ToString();
-            detail.label7.Text = this.dataGridView1.CurrentRow.Cells[1].Value.ToString();
-            detail.label8.Text = this.dataGridView1.CurrentRow.Cells[2].Value.ToString();
-            detail.label9.Text = this.dataGridView1.CurrentRow.Cells[3].Value.ToString();
-            detail.label10.Text = this.dataGridView1.CurrentRow.Cells[4].Value.ToString();
+            detail.lbl_NomorMahasiswa.Text = this.dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            detail.lbl_NamaMahasiswa.Text = this.dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            detail.lbl_AlamatMahasiswa.Text = this.dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            detail.lbl_JenisKelamin.Text = this.dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            detail.lbl_NoTelpon.Text = this.dataGridView1.CurrentRow.Cells[4].Value.ToString();
             detail.ShowDialog();
         }
 

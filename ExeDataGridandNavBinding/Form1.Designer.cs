@@ -32,8 +32,8 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtb_Username = new System.Windows.Forms.TextBox();
+            this.txtb_Password = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
@@ -73,21 +73,21 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox1
+            // txtb_Username
             // 
-            this.textBox1.Location = new System.Drawing.Point(88, 180);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(208, 20);
-            this.textBox1.TabIndex = 5;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.txtb_Username.Location = new System.Drawing.Point(88, 180);
+            this.txtb_Username.Name = "txtb_Username";
+            this.txtb_Username.Size = new System.Drawing.Size(208, 20);
+            this.txtb_Username.TabIndex = 5;
+            this.txtb_Username.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // txtb_Password
             // 
-            this.textBox2.Location = new System.Drawing.Point(88, 225);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(208, 20);
-            this.textBox2.TabIndex = 6;
+            this.txtb_Password.Location = new System.Drawing.Point(88, 225);
+            this.txtb_Password.Name = "txtb_Password";
+            this.txtb_Password.PasswordChar = '*';
+            this.txtb_Password.Size = new System.Drawing.Size(208, 20);
+            this.txtb_Password.TabIndex = 6;
             // 
             // label2
             // 
@@ -151,8 +151,8 @@
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtb_Password);
+            this.Controls.Add(this.txtb_Username);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -169,8 +169,8 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtb_Username;
+        private System.Windows.Forms.TextBox txtb_Password;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox checkBox1;
