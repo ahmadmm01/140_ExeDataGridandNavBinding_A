@@ -16,5 +16,11 @@ namespace ExeDataGridandNavBinding
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            new Form3().Show();
+            this.Close();
+        }
     }
 }
