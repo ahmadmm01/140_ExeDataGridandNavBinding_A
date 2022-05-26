@@ -419,6 +419,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.mahasiswaBindingNavigator);
             this.Name = "Form5";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Binding Navigator";
             this.Load += new System.EventHandler(this.Form5_Load);
             ((System.ComponentModel.ISupportInitialize)(this.prodiTIDataSet)).EndInit();
