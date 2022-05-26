@@ -80,9 +80,9 @@
             this.sexDataGridViewTextBoxColumn,
             this.phoneMhsDataGridViewTextBoxColumn});
             this.dataGridView1.DataSource = this.mahasiswaBindingSource;
-            this.dataGridView1.Location = new System.Drawing.Point(109, 172);
+            this.dataGridView1.Location = new System.Drawing.Point(61, 172);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(679, 266);
+            this.dataGridView1.Size = new System.Drawing.Size(727, 266);
             this.dataGridView1.TabIndex = 2;
             // 
             // nIMDataGridViewTextBoxColumn
