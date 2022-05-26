@@ -36,7 +36,7 @@ namespace ExeDataGridandNavBinding
         {
             if (textBox1.Text == "madd" && textBox2.Text == "madd123" && checkBox1.Checked)
             {
-                new Form2().Show(this);
+                new Form2().Show();
                 this.Hide();
             }
             else if (textBox1.Text != "madd" || textBox1.Text != "madd123" || !checkBox1.Checked)
