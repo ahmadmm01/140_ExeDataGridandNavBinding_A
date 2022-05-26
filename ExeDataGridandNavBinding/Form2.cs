@@ -25,8 +25,7 @@ namespace ExeDataGridandNavBinding
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            new Form5().Show();
-            this.Hide();
+            new Form5().ShowDialog();
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)

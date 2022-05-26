@@ -39,7 +39,6 @@ namespace ExeDataGridandNavBinding
             detail.label9.Text = this.dataGridView1.CurrentRow.Cells[3].Value.ToString();
             detail.label10.Text = this.dataGridView1.CurrentRow.Cells[4].Value.ToString();
             detail.ShowDialog();
-            this.Hide();
         }
 
         private void dataGridView1_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
